@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | Full-Stack Scripter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+
+    <nav class="fade-up">
+        <div class="logo">DEV.PORTFOLIO</div>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+        </div>
+    </nav>
+
+    <header class="fade-up delay-1">
+        <h1>Full-Stack Scripter</h1>
+        <p>I handle both front-end and back-end scripting—from saving data securely to making UIs feel great to use.</p>
+    </header>
+
+    <section id="about" class="fade-up delay-2">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Hey, I'm a Full-Stack Roblox Scripter. I started programming about two years ago and have spent the last year also working with Roblox Studio.</p>
+            
+            <p>Because I write both front-end and back-end, I can build complete systems from scratch. I'm comfortable using community standards like <strong>ProfileStore</strong> and <strong>ReplicaService</strong> for rock-solid data management, and I build strict server verification systems to stop exploiters.</p>
+            
+            <p>I care a lot about the under-the-hood details. Whether I'm using raycasting for accurate game mechanics, actively preventing memory leaks, or scripting a drag-and-drop inventory UI, I make sure my code is clean, structured, and easy to read.</p>
+            
+            <p>I'm currently on summer break, so my schedule is completely open. I'm looking to join a great team, track down complex bugs, and help build some awesome games.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-up delay-2">
+        <h2>What I Do</h2>
+        <div class="skills-container">
+            <div class="skill-badge"><div class="skill-dot"></div> ProfileStore & ReplicaService</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Server Verification & Security</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Memory Leak Prevention</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Raycasting & CFrame Math</div>
+            <div class="skill-badge"><div class="skill-dot"></div> UI Scripting</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Custom Movement Mechanics</div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-up delay-3">
+        <h2>Featured Systems</h2>
+        <div class="projects-list">
+
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline>
+                            <source src="RPG.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Custom Inventory & Movement</h3>
+                    <p>A complete player controller and inventory built from scratch. It features a drag-and-drop UI, remappable hotbar keybinds, and secure DataStore saving. I also scripted custom movement mechanics, including smooth sprinting and double jumping.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">Drag & Drop UI</span>
+                        <span class="feature-tag">Dynamic Keybinds</span>
+                        <span class="feature-tag">Sprint & Double Jump</span>
+                        <span class="feature-tag">DataStore Saving</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline>
+                            <source src="Building.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="BuildingBoxingGlove.png" alt="Building Preview">
+                        <img src="BuildingSpikeBall.png" alt="Spike Ball Trap">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Grid Building System</h3>
+                    <p>A fully functional placement system. I built in strict safety checks so players can't place items inside walls or overlap objects. It also includes holographic previews and a custom free-cam so players can build bases easily without their avatar blocking the view.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">Grid-Snapping Logic</span>
+                        <span class="feature-tag">Collision Checks</span>
+                        <span class="feature-tag">Surface Detection</span>
+                        <span class="feature-tag">Free-Camera Hook</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline>
+                            <source src="Hatchery.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="HatcheryStation.png" alt="Hatchery Station">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Hatching & Mutation System</h3>
+                    <p>An RNG-based game loop. Random DNA spawns around the map for players to collect and put into a hatching machine. It includes server-synced timers, percentage-based mutation chances, and display cases that show off the item and give players money.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">RNG Spawners</span>
+                        <span class="feature-tag">Server Timers</span>
+                        <span class="feature-tag">Mutation Probabilities</span>
+                        <span class="feature-tag">Economy Logic</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience" class="fade-up delay-4">
+        <h2>Experience</h2>
+        <div class="experience-banner">
+            <div class="experience-content">
+                <h3>Marble Simulator X</h3>
+                <div class="sub">Full-Stack Scripter • Collaborative Project</div>
+                <p style="color: #d1d5db; margin-bottom: 2rem;">
+                    This was the first game I ever made, built alongside a friend who was also new to Studio. We didn't do any marketing so it didn't get players, but taking a game from an empty baseplate to a fully published state taught me a ton about teamwork and actually finishing a project.
+                </p>
+                <a href="https://www.roblox.com/games/116284128793141/Marble-Simulator-X" target="_blank" class="btn">View on Roblox</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 style="color: #fff;">Let's make something cool.</h2>
+        <div class="socials">
+            <div class="social-btn" id="email-btn">Email: <span class="selectable-text">inkiei14@gmail.com</span></div>
+            <div class="social-btn" id="discord-btn">Discord: <span class="selectable-text">inkiei</span></div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <div id="lightbox-wrapper" class="lightbox-wrapper"></div>
+    </div>
+
+    <script>
+        // --- Lightbox Media Logic ---
+        const lightbox = document.getElementById('lightbox');
+        const wrapper = document.getElementById('lightbox-wrapper');
+        const closeBtn = document.querySelector('.lightbox-close');
+        const prevBtn = document.querySelector('.lightbox-prev');
+        const nextBtn = document.querySelector('.lightbox-next');
+
+        let currentGroup = [];
+        let currentIndex = 0;
+
+        // CHANGED: Now sets the cursor to the clicking hand icon instead of the magnifying glass
+        document.querySelectorAll('.project-video video').forEach(v => {
+            v.style.cursor = 'pointer';
+        });
+
+        document.querySelectorAll('.project-card').forEach(card => {
+            const mediaItems = Array.from(card.querySelectorAll('.project-video video, .project-gallery img'));
+            mediaItems.forEach((media, index) => {
+                media.addEventListener('click', function() {
+                    currentGroup = mediaItems;
+                    currentIndex = index;
+                    openLightbox();
+                });
+            });
+        });
+
+        function updateLightboxContent() {
+            wrapper.innerHTML = ''; 
+            const media = currentGroup[currentIndex];
+
+            if (media.tagName === 'VIDEO') {
+                const video = document.createElement('video');
+                video.src = media.querySelector('source').src;
+                video.controls = true;
+                video.autoplay = true;
+                video.className = 'lightbox-media';
+                wrapper.appendChild(video);
+            } else {
+                const img = document.createElement('img');
+                img.src = media.src;
+                img.className = 'lightbox-media';
+                wrapper.appendChild(img);
+            }
+
+            if (currentGroup.length > 1) {
+                prevBtn.style.display = 'block';
+                nextBtn.style.display = 'block';
+            } else {
+                prevBtn.style.display = 'none';
+                nextBtn.style.display = 'none';
+            }
+        }
+
+        function openLightbox() {
+            lightbox.style.display = 'flex';
+            setTimeout(() => lightbox.classList.add('active'), 10);
+            updateLightboxContent();
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            setTimeout(() => {
+                lightbox.style.display = 'none';
+                wrapper.innerHTML = ''; 
+            }, 300);
+        }
+
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex - 1 + currentGroup.length) % currentGroup.length;
+            updateLightboxContent();
+        });
+
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex + 1) % currentGroup.length;
+            updateLightboxContent();
+        });
+
+        closeBtn.addEventListener('click', closeLightbox);
+        
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox || e.target === wrapper) closeLightbox();
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === "Escape") closeLightbox();
+            if (e.key === "ArrowLeft" && currentGroup.length > 1) prevBtn.click();
+            if (e.key === "ArrowRight" && currentGroup.length > 1) nextBtn.click();
+        });
+
+        // --- Selectable Text & Copy Logic ---
+        function setupCopyButton(btnId, textToCopy) {
+            const btn = document.getElementById(btnId);
+            if (!btn) return;
+            
+            btn.addEventListener('click', function(e) {
+                // If the user is dragging their mouse to highlight text, DO NOT trigger the copy notification
+                if (window.getSelection().toString().length > 0) return;
+
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const originalText = btn.innerHTML;
+                    btn.innerText = 'Copied to clipboard!';
+                    btn.style.color = '#10b981'; 
+                    btn.style.borderColor = '#10b981';
+                    
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                        btn.style.color = ''; 
+                        btn.style.borderColor = '';
+                    }, 2000);
+                });
+            });
+        }
+
+        setupCopyButton('discord-btn', 'inkiei');
+        setupCopyButton('email-btn', 'inkiei14@gmail.com');
+    </script>
+</body>
+</html>
