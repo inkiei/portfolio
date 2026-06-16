@@ -126,7 +126,7 @@ section h2::after { content: ''; height: 1px; flex-grow: 1; background: linear-g
 .project-card {
     background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 20px;
     overflow: hidden; display: grid; grid-template-columns: 1.3fr 1fr; 
-    backdrop-filter: blur(12px); transition: all 0.4s ease;
+    backdrop-filter: blur(4px); transition: all 0.4s ease;
     transform: translateZ(0);
 }
 .project-card:hover { border-color: rgba(59, 130, 246, 0.3); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); }
