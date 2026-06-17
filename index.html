@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inkiei | Full-Stack Scripter Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+
+    <nav class="fade-up">
+        <div class="logo">INKIEI.DEV</div>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#projects">Systems</a>
+            <a href="#experience">Experience</a>
+        </div>
+    </nav>
+
+    <header class="fade-up delay-1">
+        <div class="status-badge">Available for Work & Commissions</div>
+        <h1>Full-Stack Scripter</h1>
+        <p>I build secure backend frameworks and responsive frontend systems—taking games from prototype to published.</p>
+    </header>
+
+    <section id="about" class="fade-up delay-2">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Hey, I'm inkiei, a Full-Stack Roblox Scripter. I started programming about two years ago and have spent the last year also working with Roblox Studio. Because I write both front-end and back-end code, I can build complete systems from scratch. I have experience with community standards like <strong>ProfileStore</strong> and <strong>ReplicaService</strong> for rock-solid data management, and I build strict server verification to stop exploiters.</p>
+            
+            <p>During my recent professional studio internship, I honed my ability to design complex gameplay systems and solve difficult logic bugs. I learned the value of taking a step back to systematically analyze raw data to find the root cause of a problem, rather than just guessing.</p>
+            
+            <p>I thrive in collaborative environments. Over the past year, I have worked closely alongside a network of fellow developers and creators on multiple published and in-development projects. Whether I am consulting on a project or building systems from the ground up, I place a massive emphasis on client feedback. For me, delivering clean code and building long-term trust is just as important as the game mechanics themselves.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-up delay-2">
+        <h2>Technical Arsenal</h2>
+        <div class="skills-container">
+            <div class="skill-badge"><div class="skill-dot"></div> ProfileStore & ReplicaService</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Server Verification</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Pathfinding & AI</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Raycasting & CFrame</div>
+            <div class="skill-badge"><div class="skill-dot"></div> UI/UX Scripting</div>
+            <div class="skill-badge"><div class="skill-dot"></div> Custom Movement</div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-up delay-3">
+        <h2>Featured Systems</h2>
+        <div class="projects-list">
+
+            <!-- Inventory & Movement Project -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline class="lightbox-trigger">
+                            <source src="RPG.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-type">COLLABORATIVE TEAM PROJECT</div>
+                    <h3>Custom Inventory & Movement</h3>
+                    <p>A complete player controller and inventory built from scratch alongside two fellow developers. It features a drag-and-drop UI, remappable hotbar keybinds, and secure DataStore saving. I also scripted custom movement mechanics, including smooth sprinting and double jumping.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">Drag & Drop UI</span>
+                        <span class="feature-tag">Dynamic Keybinds</span>
+                        <span class="feature-tag">Sprint & Double Jump</span>
+                        <span class="feature-tag">DataStore Saving</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vault Builder -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline class="lightbox-trigger">
+                            <source src="Building.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="BuildingBoxingGlove.webp" alt="Building Preview" class="lightbox-trigger">
+                        <img src="BuildingSpikeBall.webp" alt="Spike Ball Trap" class="lightbox-trigger">
+                        <img src="BuildVault.webp" alt="Vault Overview" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-type">INTERNSHIP PROJECT</div>
+                    <h3>Vault Building Game</h3>
+                    <p>Players can purchase items, defensive traps, and structures to fully customize their own vaults. The core is a robust grid-snapping placement system with strict server-side collision checks to prevent wall-clipping and overlapping, paired with a custom free-cam for easier base building.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">Grid-Snapping</span>
+                        <span class="feature-tag">Collision Math</span>
+                        <span class="feature-tag">Economy Logic</span>
+                        <span class="feature-tag">Free-Camera Hook</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hatchery System -->
+            <div class="project-card">
+                <div class="project-media">
+                    <div class="project-video">
+                        <video autoplay loop muted playsinline class="lightbox-trigger">
+                            <source src="Hatchery.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="HatcheryStation.webp" alt="Hatchery Station" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-type">STANDALONE SYSTEM</div>
+                    <h3>Hatching & Mutation Loop</h3>
+                    <p>An RNG-based gameplay loop where players collect randomly spawned DNA to process in a hatchery. It relies on secure server-synced timers and calculated mutation probabilities. Successfully hatched items are displayed in cases that generate passive income for the player.</p>
+                    <div class="feature-tags">
+                        <span class="feature-tag">RNG Logic</span>
+                        <span class="feature-tag">Server-Synced Timers</span>
+                        <span class="feature-tag">Probability Math</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience" class="fade-up delay-4">
+        <h2>Experience</h2>
+        
+        <div class="experience-list">
+            
+            <!-- Vault Builder Internship Banner -->
+            <div class="experience-banner" style="background-image: linear-gradient(rgba(8, 11, 18, 0.6), rgba(8, 11, 18, 0.9)), url('BuildVault.webp');">
+                <div class="experience-content">
+                    <h3>Studio Internship</h3>
+                    <div class="sub">Software Developer Intern • Vault Building System</div>
+                    <p>Engineered core gameplay loops alongside a close-knit development team, heavily focusing on a Vault Building system where players purchase items and customize structures via grid-snapping. Created technical schemas to map out systems before programming, prioritizing clear communication and systematic problem-solving to meet our collaborative milestones.</p>
+                </div>
+            </div>
+
+            <!-- Dynamic Pathfinding Horizontal Card -->
+            <div class="experience-card-horizontal">
+                <div class="exp-horizontal-text">
+                    <h3>Dynamic Pathfinding AI</h3>
+                    <div class="sub">Independent Prototype</div>
+                    <p>Engineered custom NPC AI with dynamic pathfinding that actively detects and pursues players across complex map geometry. Focused heavily on loop optimization to recalculate paths efficiently without causing server lag or memory leaks.</p>
+                </div>
+                <div class="exp-horizontal-media">
+                    <video src="Pathfind.mp4" autoplay loop muted playsinline class="lightbox-trigger"></video>
+                </div>
+            </div>
+
+            <!-- Full-width banner for Marble Simulator -->
+            <div class="experience-banner" style="background-image: linear-gradient(rgba(8, 11, 18, 0.5), rgba(8, 11, 18, 0.8)), url('MarbleSim.webp');">
+                <div class="experience-content">
+                    <h3>Marble Simulator X</h3>
+                    <div class="sub">Full-Stack Scripter • Collaborative Project</div>
+                    <p>My first full game project. Built alongside a trusted co-developer, taking the game from an empty baseplate to a fully published state. Taught me the fundamentals of teamwork, giving and receiving feedback, version control, and seeing a large-scale project through to completion.</p>
+                    <a href="https://www.roblox.com/games/116284128793141/Marble-Simulator-X" target="_blank" class="btn" style="margin-top: 1.5rem;">View on Roblox</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h2>Let's build something great.</h2>
+        <div class="socials">
+            <div class="social-btn" id="email-btn">Email: <span class="selectable-text">inkiei14@gmail.com</span></div>
+            <div class="social-btn" id="discord-btn">Discord: <span class="selectable-text">inkiei</span></div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <div id="lightbox-wrapper" class="lightbox-wrapper"></div>
+    </div>
+
+    <script>
+        // --- Lightbox Media Logic ---
+        const lightbox = document.getElementById('lightbox');
+        const wrapper = document.getElementById('lightbox-wrapper');
+        const closeBtn = document.querySelector('.lightbox-close');
+        const prevBtn = document.querySelector('.lightbox-prev');
+        const nextBtn = document.querySelector('.lightbox-next');
+
+        let currentGroup = [];
+        let currentIndex = 0;
+
+        document.querySelectorAll('.project-card, .experience-card-horizontal, .experience-banner').forEach(container => {
+            const mediaItems = Array.from(container.querySelectorAll('.lightbox-trigger'));
+            
+            mediaItems.forEach((media, index) => {
+                media.style.cursor = 'pointer';
+                media.addEventListener('click', function(e) {
+                    e.preventDefault(); 
+                    currentGroup = mediaItems;
+                    currentIndex = index;
+                    openLightbox();
+                });
+            });
+        });
+
+        function updateLightboxContent() {
+            wrapper.innerHTML = ''; 
+            const media = currentGroup[currentIndex];
+
+            if (media.tagName === 'VIDEO') {
+                const video = document.createElement('video');
+                video.src = media.currentSrc || media.src || media.querySelector('source').src;
+                video.controls = true;
+                video.autoplay = true;
+                video.className = 'lightbox-media';
+                wrapper.appendChild(video);
+            } else {
+                const img = document.createElement('img');
+                img.src = media.src;
+                img.className = 'lightbox-media';
+                wrapper.appendChild(img);
+            }
+
+            if (currentGroup.length > 1) {
+                prevBtn.style.display = 'block';
+                nextBtn.style.display = 'block';
+            } else {
+                prevBtn.style.display = 'none';
+                nextBtn.style.display = 'none';
+            }
+        }
+
+        function openLightbox() {
+            lightbox.style.display = 'flex';
+            setTimeout(() => lightbox.classList.add('active'), 10);
+            updateLightboxContent();
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            setTimeout(() => {
+                lightbox.style.display = 'none';
+                wrapper.innerHTML = ''; 
+            }, 300);
+        }
+
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex - 1 + currentGroup.length) % currentGroup.length;
+            updateLightboxContent();
+        });
+
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex + 1) % currentGroup.length;
+            updateLightboxContent();
+        });
+
+        closeBtn.addEventListener('click', closeLightbox);
+        
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox || e.target === wrapper) closeLightbox();
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === "Escape") closeLightbox();
+            if (e.key === "ArrowLeft" && currentGroup.length > 1) prevBtn.click();
+            if (e.key === "ArrowRight" && currentGroup.length > 1) nextBtn.click();
+        });
+
+        // --- Selectable Text & Copy Logic ---
+        function setupCopyButton(btnId, textToCopy) {
+            const btn = document.getElementById(btnId);
+            if (!btn) return;
+            
+            btn.addEventListener('click', function(e) {
+                if (window.getSelection().toString().length > 0) return;
+
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const originalText = btn.innerHTML;
+                    btn.innerText = 'Copied to clipboard!';
+                    btn.style.color = '#10b981'; 
+                    btn.style.borderColor = '#10b981';
+                    
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                        btn.style.color = ''; 
+                        btn.style.borderColor = '';
+                    }, 2000);
+                });
+            });
+        }
+
+        setupCopyButton('discord-btn', 'inkiei');
+        setupCopyButton('email-btn', 'inkiei14@gmail.com');
+    </script>
+</body>
+</html>
